@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69FB1F5120CBD0BC00EAEA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F5020CBD0BC00EAEA70 /* AppDelegate.swift */; };
-		69FB1F5320CBD0BC00EAEA70 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F5220CBD0BC00EAEA70 /* MasterViewController.swift */; };
-		69FB1F5520CBD0BC00EAEA70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F5420CBD0BC00EAEA70 /* DetailViewController.swift */; };
-		69FB1F5820CBD0BC00EAEA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F5620CBD0BC00EAEA70 /* Main.storyboard */; };
-		69FB1F5A20CBD0BC00EAEA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F5920CBD0BC00EAEA70 /* Assets.xcassets */; };
-		69FB1F5D20CBD0BC00EAEA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F5B20CBD0BC00EAEA70 /* LaunchScreen.storyboard */; };
+		20A173BA445E18D3EFAB50DF /* Pods_GymFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C56CFFDE89511CDD3B29C9 /* Pods_GymFinderTests.framework */; };
+		6908EDEE20CE24BD006BEAA5 /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = 6908EDED20CE24BD006BEAA5 /* dummy.json */; };
+		6908EDF020CE29E4006BEAA5 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9D20CBD1A600EAEA70 /* Webservice.swift */; };
+		6908EDF120CE2BD8006BEAA5 /* Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9B20CBD1A600EAEA70 /* Gym.swift */; };
+		6908EDF220CE467E006BEAA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9920CBD1A600EAEA70 /* Constants.swift */; };
 		69FB1F6820CBD0BC00EAEA70 /* GymFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F6720CBD0BC00EAEA70 /* GymFinderTests.swift */; };
 		69FB1F7320CBD0BC00EAEA70 /* GymFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F7220CBD0BC00EAEA70 /* GymFinderUITests.swift */; };
+		69FB1FA320CBD1A600EAEA70 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F8120CBD1A600EAEA70 /* Dynamic.swift */; };
+		69FB1FA420CBD1A600EAEA70 /* GymDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F8220CBD1A600EAEA70 /* GymDetailViewModel.swift */; };
+		69FB1FA520CBD1A600EAEA70 /* GymListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F8320CBD1A600EAEA70 /* GymListViewModel.swift */; };
+		69FB1FA620CBD1A600EAEA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F8520CBD1A600EAEA70 /* AppDelegate.swift */; };
+		69FB1FA820CBD1A600EAEA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F8920CBD1A600EAEA70 /* Assets.xcassets */; };
+		69FB1FA920CBD1A600EAEA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F8A20CBD1A600EAEA70 /* LaunchScreen.storyboard */; };
+		69FB1FAA20CBD1A600EAEA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F8C20CBD1A600EAEA70 /* Main.storyboard */; };
+		69FB1FAB20CBD1A600EAEA70 /* FTY DELIRIUM NCV.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F8F20CBD1A600EAEA70 /* FTY DELIRIUM NCV.ttf */; };
+		69FB1FAC20CBD1A700EAEA70 /* SF Movie Poster Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F9020CBD1A600EAEA70 /* SF Movie Poster Bold.ttf */; };
+		69FB1FAD20CBD1A700EAEA70 /* sf-scribbled-sans.bold-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F9120CBD1A600EAEA70 /* sf-scribbled-sans.bold-italic.ttf */; };
+		69FB1FAF20CBD1A700EAEA70 /* TableSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69FB1F9320CBD1A600EAEA70 /* TableSectionHeader.xib */; };
+		69FB1FB020CBD1A700EAEA70 /* GymDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9520CBD1A600EAEA70 /* GymDetailTableViewController.swift */; };
+		69FB1FB120CBD1A700EAEA70 /* GymListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9620CBD1A600EAEA70 /* GymListTableViewController.swift */; };
+		69FB1FB320CBD1A700EAEA70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9920CBD1A600EAEA70 /* Constants.swift */; };
+		69FB1FB420CBD1A700EAEA70 /* Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9B20CBD1A600EAEA70 /* Gym.swift */; };
+		69FB1FB520CBD1A700EAEA70 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9D20CBD1A600EAEA70 /* Webservice.swift */; };
+		69FB1FB620CBD1A700EAEA70 /* GymCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1F9F20CBD1A600EAEA70 /* GymCell.swift */; };
+		69FB1FB820CBD1A700EAEA70 /* TableSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1FA120CBD1A600EAEA70 /* TableSectionHeader.swift */; };
+		69FB1FBA20CBD55D00EAEA70 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1FB920CBD55D00EAEA70 /* ViewExtensions.swift */; };
+		6B064FA418ED70A2AF54E458 /* Pods_GymFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF82CB9ED0571DFB4CA7D06 /* Pods_GymFinderUITests.framework */; };
+		8AA84D3F8BED4A1C53463721 /* Pods_GymFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9796BFE6EB409A63CF75ED4 /* Pods_GymFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067E02C47B6FA1DC346E270D /* Pods-GymFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinderTests/Pods-GymFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		137853E0B6D5AA5526DD6B79 /* Pods-GymFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinderUITests/Pods-GymFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1DE299403EB78A4774C9098D /* Pods-GymFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinder/Pods-GymFinder.release.xcconfig"; sourceTree = "<group>"; };
+		3E553C11EE7083176E2B2BEC /* Pods-GymFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinderTests/Pods-GymFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC2D5DC9C9899FEA9689A5F /* Pods-GymFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinderUITests/Pods-GymFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF82CB9ED0571DFB4CA7D06 /* Pods_GymFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6908EDED20CE24BD006BEAA5 /* dummy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
 		69FB1F4D20CBD0BC00EAEA70 /* GymFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FB1F5020CBD0BC00EAEA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69FB1F5220CBD0BC00EAEA70 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		69FB1F5420CBD0BC00EAEA70 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		69FB1F5720CBD0BC00EAEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69FB1F5920CBD0BC00EAEA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		69FB1F5C20CBD0BC00EAEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69FB1F5E20CBD0BC00EAEA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69FB1F6320CBD0BC00EAEA70 /* GymFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FB1F6720CBD0BC00EAEA70 /* GymFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymFinderTests.swift; sourceTree = "<group>"; };
@@ -49,6 +70,28 @@
 		69FB1F6E20CBD0BC00EAEA70 /* GymFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FB1F7220CBD0BC00EAEA70 /* GymFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymFinderUITests.swift; sourceTree = "<group>"; };
 		69FB1F7420CBD0BC00EAEA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FB1F8120CBD1A600EAEA70 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		69FB1F8220CBD1A600EAEA70 /* GymDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymDetailViewModel.swift; sourceTree = "<group>"; };
+		69FB1F8320CBD1A600EAEA70 /* GymListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymListViewModel.swift; sourceTree = "<group>"; };
+		69FB1F8520CBD1A600EAEA70 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69FB1F8920CBD1A600EAEA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69FB1F8B20CBD1A600EAEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69FB1F8D20CBD1A600EAEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69FB1F8F20CBD1A600EAEA70 /* FTY DELIRIUM NCV.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FTY DELIRIUM NCV.ttf"; sourceTree = "<group>"; };
+		69FB1F9020CBD1A600EAEA70 /* SF Movie Poster Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF Movie Poster Bold.ttf"; sourceTree = "<group>"; };
+		69FB1F9120CBD1A600EAEA70 /* sf-scribbled-sans.bold-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-scribbled-sans.bold-italic.ttf"; sourceTree = "<group>"; };
+		69FB1F9320CBD1A600EAEA70 /* TableSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableSectionHeader.xib; sourceTree = "<group>"; };
+		69FB1F9520CBD1A600EAEA70 /* GymDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymDetailTableViewController.swift; sourceTree = "<group>"; };
+		69FB1F9620CBD1A600EAEA70 /* GymListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymListTableViewController.swift; sourceTree = "<group>"; };
+		69FB1F9920CBD1A600EAEA70 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69FB1F9B20CBD1A600EAEA70 /* Gym.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gym.swift; sourceTree = "<group>"; };
+		69FB1F9D20CBD1A600EAEA70 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		69FB1F9F20CBD1A600EAEA70 /* GymCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymCell.swift; sourceTree = "<group>"; };
+		69FB1FA120CBD1A600EAEA70 /* TableSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSectionHeader.swift; sourceTree = "<group>"; };
+		69FB1FB920CBD55D00EAEA70 /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		C506878CB3BE04E2995DCCBC /* Pods-GymFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinder/Pods-GymFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C56CFFDE89511CDD3B29C9 /* Pods_GymFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9796BFE6EB409A63CF75ED4 /* Pods_GymFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA84D3F8BED4A1C53463721 /* Pods_GymFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A173BA445E18D3EFAB50DF /* Pods_GymFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +115,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B064FA418ED70A2AF54E458 /* Pods_GymFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6908EDE720CDF894006BEAA5 /* TableSectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1FA120CBD1A600EAEA70 /* TableSectionHeader.swift */,
+				69FB1F9320CBD1A600EAEA70 /* TableSectionHeader.xib */,
+			);
+			path = TableSectionHeader;
+			sourceTree = "<group>";
+		};
+		6908EDEB20CE24A6006BEAA5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6908EDED20CE24BD006BEAA5 /* dummy.json */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		69FB1F4420CBD0BC00EAEA70 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +146,8 @@
 				69FB1F6620CBD0BC00EAEA70 /* GymFinderTests */,
 				69FB1F7120CBD0BC00EAEA70 /* GymFinderUITests */,
 				69FB1F4E20CBD0BC00EAEA70 /* Products */,
+				BA7F10DF69B067817A620093 /* Pods */,
+				BEAD3433E30B3CF0B8320F2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +164,16 @@
 		69FB1F4F20CBD0BC00EAEA70 /* GymFinder */ = {
 			isa = PBXGroup;
 			children = (
-				69FB1F5020CBD0BC00EAEA70 /* AppDelegate.swift */,
-				69FB1F5220CBD0BC00EAEA70 /* MasterViewController.swift */,
-				69FB1F5420CBD0BC00EAEA70 /* DetailViewController.swift */,
-				69FB1F5620CBD0BC00EAEA70 /* Main.storyboard */,
-				69FB1F5920CBD0BC00EAEA70 /* Assets.xcassets */,
-				69FB1F5B20CBD0BC00EAEA70 /* LaunchScreen.storyboard */,
+				6908EDEB20CE24A6006BEAA5 /* Support */,
+				69FB1F9920CBD1A600EAEA70 /* Constants.swift */,
+				69FB1F8420CBD1A600EAEA70 /* AppDelegate */,
+				69FB1F8820CBD1A600EAEA70 /* Assets & XIBs */,
+				69FB1F9420CBD1A600EAEA70 /* Controllers */,
+				69FB1F9720CBD1A600EAEA70 /* Extensions */,
+				69FB1F9A20CBD1A600EAEA70 /* Models */,
+				69FB1F8020CBD1A600EAEA70 /* View Models */,
+				69FB1F9E20CBD1A600EAEA70 /* Views */,
+				69FB1F9C20CBD1A600EAEA70 /* Web Services */,
 				69FB1F5E20CBD0BC00EAEA70 /* Info.plist */,
 			);
 			path = GymFinder;
@@ -128,6 +197,110 @@
 			path = GymFinderUITests;
 			sourceTree = "<group>";
 		};
+		69FB1F8020CBD1A600EAEA70 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F8120CBD1A600EAEA70 /* Dynamic.swift */,
+				69FB1F8220CBD1A600EAEA70 /* GymDetailViewModel.swift */,
+				69FB1F8320CBD1A600EAEA70 /* GymListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		69FB1F8420CBD1A600EAEA70 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F8520CBD1A600EAEA70 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		69FB1F8820CBD1A600EAEA70 /* Assets & XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F8920CBD1A600EAEA70 /* Assets.xcassets */,
+				69FB1F8A20CBD1A600EAEA70 /* LaunchScreen.storyboard */,
+				69FB1F8C20CBD1A600EAEA70 /* Main.storyboard */,
+				69FB1F8E20CBD1A600EAEA70 /* Fonts */,
+			);
+			path = "Assets & XIBs";
+			sourceTree = "<group>";
+		};
+		69FB1F8E20CBD1A600EAEA70 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F8F20CBD1A600EAEA70 /* FTY DELIRIUM NCV.ttf */,
+				69FB1F9020CBD1A600EAEA70 /* SF Movie Poster Bold.ttf */,
+				69FB1F9120CBD1A600EAEA70 /* sf-scribbled-sans.bold-italic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		69FB1F9420CBD1A600EAEA70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F9520CBD1A600EAEA70 /* GymDetailTableViewController.swift */,
+				69FB1F9620CBD1A600EAEA70 /* GymListTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		69FB1F9720CBD1A600EAEA70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1FB920CBD55D00EAEA70 /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		69FB1F9A20CBD1A600EAEA70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F9B20CBD1A600EAEA70 /* Gym.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69FB1F9C20CBD1A600EAEA70 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				69FB1F9D20CBD1A600EAEA70 /* Webservice.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		69FB1F9E20CBD1A600EAEA70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6908EDE720CDF894006BEAA5 /* TableSectionHeader */,
+				69FB1F9F20CBD1A600EAEA70 /* GymCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA7F10DF69B067817A620093 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C506878CB3BE04E2995DCCBC /* Pods-GymFinder.debug.xcconfig */,
+				1DE299403EB78A4774C9098D /* Pods-GymFinder.release.xcconfig */,
+				3E553C11EE7083176E2B2BEC /* Pods-GymFinderTests.debug.xcconfig */,
+				067E02C47B6FA1DC346E270D /* Pods-GymFinderTests.release.xcconfig */,
+				4DC2D5DC9C9899FEA9689A5F /* Pods-GymFinderUITests.debug.xcconfig */,
+				137853E0B6D5AA5526DD6B79 /* Pods-GymFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEAD3433E30B3CF0B8320F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9796BFE6EB409A63CF75ED4 /* Pods_GymFinder.framework */,
+				D2C56CFFDE89511CDD3B29C9 /* Pods_GymFinderTests.framework */,
+				5AF82CB9ED0571DFB4CA7D06 /* Pods_GymFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FB1F7720CBD0BC00EAEA70 /* Build configuration list for PBXNativeTarget "GymFinder" */;
 			buildPhases = (
+				A4F2B4B15EF2A33E8EFD0007 /* [CP] Check Pods Manifest.lock */,
 				69FB1F4920CBD0BC00EAEA70 /* Sources */,
 				69FB1F4A20CBD0BC00EAEA70 /* Frameworks */,
 				69FB1F4B20CBD0BC00EAEA70 /* Resources */,
+				5A59B5BE750D9C7F152ADC85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FB1F7A20CBD0BC00EAEA70 /* Build configuration list for PBXNativeTarget "GymFinderTests" */;
 			buildPhases = (
+				E25AC897597C1B57B1EB33CE /* [CP] Check Pods Manifest.lock */,
 				69FB1F5F20CBD0BC00EAEA70 /* Sources */,
 				69FB1F6020CBD0BC00EAEA70 /* Frameworks */,
 				69FB1F6120CBD0BC00EAEA70 /* Resources */,
@@ -170,6 +346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FB1F7D20CBD0BC00EAEA70 /* Build configuration list for PBXNativeTarget "GymFinderUITests" */;
 			buildPhases = (
+				E84901CF6AA10EAC6C2BB375 /* [CP] Check Pods Manifest.lock */,
 				69FB1F6A20CBD0BC00EAEA70 /* Sources */,
 				69FB1F6B20CBD0BC00EAEA70 /* Frameworks */,
 				69FB1F6C20CBD0BC00EAEA70 /* Resources */,
@@ -196,6 +373,7 @@
 				TargetAttributes = {
 					69FB1F4C20CBD0BC00EAEA70 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					69FB1F6220CBD0BC00EAEA70 = {
@@ -235,9 +413,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FB1F5D20CBD0BC00EAEA70 /* LaunchScreen.storyboard in Resources */,
-				69FB1F5A20CBD0BC00EAEA70 /* Assets.xcassets in Resources */,
-				69FB1F5820CBD0BC00EAEA70 /* Main.storyboard in Resources */,
+				69FB1FAC20CBD1A700EAEA70 /* SF Movie Poster Bold.ttf in Resources */,
+				69FB1FAA20CBD1A600EAEA70 /* Main.storyboard in Resources */,
+				69FB1FAB20CBD1A600EAEA70 /* FTY DELIRIUM NCV.ttf in Resources */,
+				69FB1FAD20CBD1A700EAEA70 /* sf-scribbled-sans.bold-italic.ttf in Resources */,
+				69FB1FAF20CBD1A700EAEA70 /* TableSectionHeader.xib in Resources */,
+				69FB1FA820CBD1A600EAEA70 /* Assets.xcassets in Resources */,
+				6908EDEE20CE24BD006BEAA5 /* dummy.json in Resources */,
+				69FB1FA920CBD1A600EAEA70 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +440,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A59B5BE750D9C7F152ADC85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GymFinder/Pods-GymFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymFinder/Pods-GymFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F2B4B15EF2A33E8EFD0007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25AC897597C1B57B1EB33CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84901CF6AA10EAC6C2BB375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69FB1F4920CBD0BC00EAEA70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FB1F5520CBD0BC00EAEA70 /* DetailViewController.swift in Sources */,
-				69FB1F5320CBD0BC00EAEA70 /* MasterViewController.swift in Sources */,
-				69FB1F5120CBD0BC00EAEA70 /* AppDelegate.swift in Sources */,
+				69FB1FA620CBD1A600EAEA70 /* AppDelegate.swift in Sources */,
+				69FB1FB020CBD1A700EAEA70 /* GymDetailTableViewController.swift in Sources */,
+				69FB1FB420CBD1A700EAEA70 /* Gym.swift in Sources */,
+				69FB1FB520CBD1A700EAEA70 /* Webservice.swift in Sources */,
+				69FB1FB620CBD1A700EAEA70 /* GymCell.swift in Sources */,
+				69FB1FB120CBD1A700EAEA70 /* GymListTableViewController.swift in Sources */,
+				69FB1FB820CBD1A700EAEA70 /* TableSectionHeader.swift in Sources */,
+				69FB1FA320CBD1A600EAEA70 /* Dynamic.swift in Sources */,
+				69FB1FA420CBD1A600EAEA70 /* GymDetailViewModel.swift in Sources */,
+				69FB1FA520CBD1A600EAEA70 /* GymListViewModel.swift in Sources */,
+				69FB1FBA20CBD55D00EAEA70 /* ViewExtensions.swift in Sources */,
+				69FB1FB320CBD1A700EAEA70 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +547,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6908EDF020CE29E4006BEAA5 /* Webservice.swift in Sources */,
+				6908EDF120CE2BD8006BEAA5 /* Gym.swift in Sources */,
 				69FB1F7320CBD0BC00EAEA70 /* GymFinderUITests.swift in Sources */,
+				6908EDF220CE467E006BEAA5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +570,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		69FB1F5620CBD0BC00EAEA70 /* Main.storyboard */ = {
+		69FB1F8A20CBD1A600EAEA70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				69FB1F5720CBD0BC00EAEA70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		69FB1F5B20CBD0BC00EAEA70 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69FB1F5C20CBD0BC00EAEA70 /* Base */,
+				69FB1F8B20CBD1A600EAEA70 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		69FB1F8C20CBD1A600EAEA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69FB1F8D20CBD1A600EAEA70 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -367,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -428,13 +698,17 @@
 		};
 		69FB1F7820CBD0BC00EAEA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C506878CB3BE04E2995DCCBC /* Pods-GymFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 482LCHR832;
 				INFOPLIST_FILE = GymFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.nettrinity.GymFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,9 +716,12 @@
 		};
 		69FB1F7920CBD0BC00EAEA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE299403EB78A4774C9098D /* Pods-GymFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 482LCHR832;
 				INFOPLIST_FILE = GymFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.nettrinity.GymFinder;
@@ -456,6 +733,7 @@
 		};
 		69FB1F7B20CBD0BC00EAEA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E553C11EE7083176E2B2BEC /* Pods-GymFinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +750,7 @@
 		};
 		69FB1F7C20CBD0BC00EAEA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067E02C47B6FA1DC346E270D /* Pods-GymFinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +767,7 @@
 		};
 		69FB1F7E20CBD0BC00EAEA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC2D5DC9C9899FEA9689A5F /* Pods-GymFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +783,7 @@
 		};
 		69FB1F7F20CBD0BC00EAEA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137853E0B6D5AA5526DD6B79 /* Pods-GymFinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

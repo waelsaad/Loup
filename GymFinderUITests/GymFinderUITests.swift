@@ -1,9 +1,9 @@
 //
 //  GymFinderUITests.swift
-//  GymFinderUITests
+//  GymFinderTests
 //
-//  Created by r00tdvd on 6/9/18.
-//  Copyright © 2018 Wael Saad. All rights reserved.
+//  Created by Wael Saad on 11/6/18.
+//  Copyright © 2018 NetTrinity. All rights reserved.
 //
 
 import XCTest

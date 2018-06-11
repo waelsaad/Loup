@@ -1,0 +1,6 @@
+framework module Pods_GymFinderTests {
+  umbrella header "Pods-GymFinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
