@@ -9,8 +9,9 @@
 import Foundation
 import UIKit
 import CoreLocation
+import NVActivityIndicatorView
 
-class GymListTableViewController : UITableViewController  {
+class GymListTableViewController : UITableViewController, NVActivityIndicatorViewable  {
     
     var currentLocation: CLLocation!
     var cllocationManager = CLLocationManager()
@@ -28,14 +29,27 @@ class GymListTableViewController : UITableViewController  {
         
         self.title = self.viewModel.title
 
+        displayLoader()
+        
         self.cllocationManager.requestWhenInUseAuthorization()
         
         if CLLocationManager.locationServicesEnabled() {
             cllocationManager.delegate = self
             cllocationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         }
-        
+    
         NotificationCenter.default.addObserver(self, selector: #selector(self.displayHeader), name: Notifications.ResponseReceived.name, object: nil)
+    }
+    
+    func displayLoader() {
+        let size = CGSize(width: 30, height: 30)
+        startAnimating(size, message: "Loading...", type: NVActivityIndicatorType.ballBeat)
+    }
+    
+    func hideLoader() {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+            self.stopAnimating()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -54,7 +68,7 @@ class GymListTableViewController : UITableViewController  {
     private func fetchGymsNearBy(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
         let url = URL(string: APPURL.base_url)!
         Webservice().getGymsByCoordinates(url: url, latitude: latitude, longitude: longitude) { gymList in
-            print(gymList)
+            self.hideLoader()
             let gymsNearBy = gymList.map { gym in
                 return GymViewModel(gym :gym)
             }

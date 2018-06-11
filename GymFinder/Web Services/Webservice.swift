@@ -46,18 +46,15 @@ class Webservice {
         request.addValue("application/json", forHTTPHeaderField: "Accept")
 
         let coordinates = "{\n  \"latitude\":" + latitude.description + ",\n  \"longitude\":" + longitude.description + "\n}"
-        
-        print(latitude.description)
-        print(longitude.description)
-        
+
         request.httpBody = coordinates.data(using: .utf8)
 
         URLSession.shared.dataTask(with: request) { data, response, error in
 
-        if let response = response, let data = data {
+        if let data = data {
 
-            print(response)
-            print(String(data: data, encoding: .utf8)!)
+            //print(response)
+            //print(String(data: data, encoding: .utf8)!)
 
             let json = try! JSONSerialization.jsonObject(with: data, options: [])
             let dictionary = json as! [[String:Any]]

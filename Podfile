@@ -7,6 +7,7 @@ target 'GymFinder' do
 
   # Pods for GymFinder
   pod 'Alamofire', '~> 4.7'
+  pod 'NVActivityIndicatorView'
   
   target 'GymFinderTests' do
     inherit! :search_paths
